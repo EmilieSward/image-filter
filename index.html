@@ -1,0 +1,42 @@
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" /> 
+    <title>Link CSS to HTML</title>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+    <script src="./script.js"></script>
+</head>
+
+
+<body>
+<!-- Put your html files -->
+
+<h1> Apply Filters to Your Image </h1>
+<h2> Add filters such as grayscale, red and rainbow to your uploaded image. </h2>
+
+<div>
+    <canvas id="canvas">
+    </canvas>
+</div>
+
+<label>Load your image:</label>
+
+<input type="file" multiple="false" accept="image/*" id="image" onchange="uploadImage()">
+<p>
+    <label>Apply a filter:</label>
+    <input type="button" value="Make Gray" onclick="doGray()">
+    <input type="button" value="Make Red" onclick="doRed()">
+    <input type="button" value="Make Film" onclick="doFilm()">
+    <input type="button" value="Make Sepia" onclick="doSepia()">
+    <input type="button" value="Make Rainbow" onclick="doRainbow()">
+    <input type="button" value="Make Blur" onclick="doBlur()">
+    <!-- <input type="button" value="Flip" onclick="doFlip()"> -->
+</p>
+<p>
+    <label>Reset Image:</label>
+    <input type="button" value="Reset" onclick="doReset()">
+</p>
+
+</body>

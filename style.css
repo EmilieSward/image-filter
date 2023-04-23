@@ -1,0 +1,21 @@
+h1 {
+    color: #A34255;
+    font-family: Garamond;
+  }
+  
+  h2 {color: #A36775;
+    font-family: Garamond;  
+  }
+  
+  body {background-color: #F8E2FF;}
+  
+  canvas {
+    border: 3px solid lightgray;
+    width: 400px;
+  }
+  
+  label {
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: Garamond;  
+  }
