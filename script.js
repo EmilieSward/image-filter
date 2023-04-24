@@ -274,6 +274,7 @@ function doReset() {
     imageFilm = new SimpleImage(fileimage);
     imageSepia = new SimpleImage(fileimage);
     imageRainbow = new SimpleImage(fileimage);
+    imageBlur = new SimpleImage(fileimage);
     image.drawTo(canvas)
   }
 
