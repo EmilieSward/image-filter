@@ -5,7 +5,7 @@ var imageFilm = null
 var imageSepia = null
 var imageRainbow = null
 var imageBlur = null
-var imageFlipped = null
+// var imageFlipped = null
 var canvas = null
 
 function uploadImage() {
@@ -18,7 +18,7 @@ function uploadImage() {
   imageSepia = new SimpleImage(fileimage);
   imageRainbow = new SimpleImage(fileimage);
   imageBlur = new SimpleImage(fileimage);
-  imageFlipped = new SimpleImage(fileimage);
+  // imageFlipped = new SimpleImage(fileimage);
   image.drawTo(canvas)
 
 }
